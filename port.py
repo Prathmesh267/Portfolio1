@@ -45,7 +45,7 @@ st.markdown(
 )
 
 # Load Image
-image_path = r"C:\Users\lenovo\OneDrive\Desktop\Portfolio\Passport_Photograph.jpeg"
+image_path = "Passport_Photograph.jpeg"
 image = Image.open(image_path)
 
 # Resize the image to a specific width and height (e.g., 200x200)
