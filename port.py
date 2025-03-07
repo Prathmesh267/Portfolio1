@@ -12,13 +12,6 @@ st.markdown(
             background: url("static/bg.jpg") no-repeat center center fixed;
             background-size: cover;
         }
-        .title {
-            text-align: center;
-            font-size: 45px;  # Increased font size for title
-            font-weight: bold;
-            color: #00e6e6;
-            text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.5);
-        }
         .subtitle {
             text-align: center;
             font-size: 14px;  # Reduced font size for subtitle
@@ -60,7 +53,7 @@ with col1:
 
 # Title and Subtitle on Home Page in center column
 with col2:
-    st.markdown('<p class="title">Hello, I am Prathmesh Bondre</p>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align:center; font-size: 45px; font-weight: bold; color: #00e6e6; text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.5);">Hello, I am Prathmesh Bondre</p>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Data Engineer | Data Analyst | Big Data Enthusiast</p>', unsafe_allow_html=True)
 
 # Create Buttons for Navigation
