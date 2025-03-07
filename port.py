@@ -14,14 +14,14 @@ st.markdown(
         }
         .title {
             text-align: center;
-            font-size: 45px;
+            font-size: 30px;  # Reduced font size here
             font-weight: bold;
             color: #00e6e6;
             text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.5);
         }
         .subtitle {
             text-align: center;
-            font-size: 24px;
+            font-size: 20px;  # Reduced font size here
             font-weight: bold;
             color: #d1d1d1;
             margin-bottom: 20px;
@@ -80,7 +80,7 @@ if home_button:
 # About Me Section
 elif about_me_button:
     st.markdown('<p class="section-title">📝 About Me</p>', unsafe_allow_html=True)
-    st.write("""
+    st.write(""" 
     I am a highly motivated Data Engineer and Analyst with hands-on experience in building scalable data pipelines, performing data analysis, and implementing machine learning solutions. 
     My journey revolves around extracting insights from data and using those insights to drive business value. I'm particularly passionate about working with big data technologies such as Apache Spark, Kafka, and AWS services. 
     I thrive on solving real-world challenges and am always eager to learn and explore new technologies in the ever-evolving data field.
@@ -104,7 +104,7 @@ elif skills_button:
 # Projects Section
 elif projects_button:
     st.markdown('<p class="section-title">📌 Projects</p>', unsafe_allow_html=True)
-    
+
     st.subheader("🔹 Credit Card Fraud Detection")
     st.write("""
     Built an ML-based system using Decision Tree & AWS to identify fraudulent transactions.
