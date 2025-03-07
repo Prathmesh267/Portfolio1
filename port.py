@@ -14,14 +14,14 @@ st.markdown(
         }
         .title {
             text-align: center;
-            font-size: 30px;  # Reduced font size here
+            font-size: 45px;  # Increased font size for title
             font-weight: bold;
             color: #00e6e6;
             text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.5);
         }
         .subtitle {
             text-align: center;
-            font-size: 20px;  # Reduced font size here
+            font-size: 14px;  # Reduced font size for subtitle
             font-weight: bold;
             color: #d1d1d1;
             margin-bottom: 20px;
